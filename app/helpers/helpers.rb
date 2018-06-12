@@ -7,6 +7,6 @@ class Helpers
   end
 
   def self.is_logged_in?(sessions)
-    !!session[:user_id] #a double bang returns either true or false
+    !!sessions[:user_id] #a double bang returns either true or false
   end
 end
